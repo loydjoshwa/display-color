@@ -9,14 +9,14 @@ function Header() {
   return( 
     <div className="container"> 
       <h1>Display Color</h1> 
-      <div className="firstdiv">  
+      <div className="firstdiv"> 
        
         <input type="text" name="Text here"  placeholder=" Type color here" value={color} onChange={changed}/>
-      </div>
-      <div className="box" style={{backgroundColor:color}}>    
-           
-      </div> 
-    </div>        
+      </div>  
+      <div className="box" style={{backgroundColor:color}}>  
+         
+      </div>      
+    </div>
   )    
-} 
+}     
 export default Header     
