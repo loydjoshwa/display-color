@@ -15,8 +15,8 @@ function Header() {
       </div>    
       <div className="box" style={{backgroundColor:color}}> 
     
-      </div>   
+      </div>
     </div> 
-  )   
+  )    
 }  
 export default Header  
