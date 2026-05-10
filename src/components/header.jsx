@@ -14,8 +14,8 @@ function Header() {
         <input type="text" name="Text Here"  placeholder=" Type color here" value={color} onChange={changed}/>
       </div> 
       <div className="box" style={{backgroundColor:color}}>
- 
-      </div>
+   
+      </div> 
     </div>
   )
 } 
