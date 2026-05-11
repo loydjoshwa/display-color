@@ -8,7 +8,7 @@ function Header() {
  
   return( 
     <div className="container"> 
-      <h1>Display Color</h1>
+      <h1>Display Color</h1> 
       <div className="firstdiv"> 
        
         <input type="text" name="Text Here"  placeholder=" Type color here" value={color} onChange={changed}/>
