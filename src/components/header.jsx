@@ -6,8 +6,8 @@ function Header() {
     setColor(e.target.value)
    }
  
-  return(
-    <div className="container">
+  return( 
+    <div className="container"> 
       <h1>Display Color</h1>
       <div className="firstdiv"> 
        
