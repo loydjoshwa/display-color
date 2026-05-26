@@ -11,12 +11,12 @@ function Header() {
       <h1>Display Color</h1>
       <div className="firstdiv">
        
-        <input type="text" name="text here"  placeholder=" Type color here" value={color} onChange={changed}/>
+        <input type="text" name="text Here "  placeholder=" Type color here" value={color} onChange={changed}/>
       </div>
       <div className="box" style={{backgroundColor:color}}>
-
+ 
       </div>
-    </div>
+    </div> 
   )
 }
 export default Header
